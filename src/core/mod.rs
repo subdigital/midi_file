@@ -17,7 +17,7 @@ pub use duration_name::DurationName;
 pub use general_midi::GeneralMidi;
 pub use message::{
     Control, LocalControlValue, Message, MonoModeOnValue, NoteMessage, PitchBendMessage,
-    ProgramChangeValue,
+    ProgramChangeValue, ControlChangeValue,
 };
 pub use numbers::{
     Channel, ControlValue, MonoModeChannels, NoteNumber, PitchBendValue, PortValue, Program,
